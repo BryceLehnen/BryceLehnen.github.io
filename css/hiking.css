@@ -1,0 +1,40 @@
+
+.hikingmodule {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hikingmoduletext {
+    width: 60%;
+    float: left;
+    width: 40em;
+}
+
+.hikingmodulephoto {
+    float: left;
+    width: 40%;
+    height: 275px;
+    padding-right: 15px;
+    object-fit: contain;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img[src="../images/hikingbanner.jpg"] {
+    filter: brightness(65%);
+}
+
+h3 {
+    display: inline-block;
+    font-size: 1.4em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+p {
+    font-size: 1.2em;
+}

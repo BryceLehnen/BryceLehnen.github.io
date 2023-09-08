@@ -1,0 +1,53 @@
+
+.storiesmodule {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.storiesmoduletext {
+    width: 60%;
+    margin-left: 2.5%;
+    float: left;
+}
+
+.storiesmodulephotoright {
+    float: right;
+    padding-left: 5%;
+    padding-right: 2.5%;
+    width: 35%;
+    height: 250px;
+    object-fit: contain;
+    margin-top: 3%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3%;
+}
+
+.storiesmodulephotoleft {
+    float: left;
+    padding-right: 5%;
+    padding-left: 2.5%;
+    width: 35%;
+    height: 250px;
+    object-fit: contain;
+    margin-top: 3%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3%;
+}
+
+img[src="../images/storiesbanner.jpg"] {
+    filter: brightness(85%);
+}
+
+h3 {
+    display: inline-block;
+    font-size: 1.4em;
+    margin-bottom: 0%;
+}
+
+p {
+    display: inline-block;
+    font-size: 1.1em;
+}

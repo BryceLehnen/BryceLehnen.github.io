@@ -1,0 +1,153 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #faebd7;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', Helvetica, sans-serif;
+    /* outline: 1px solid #ffa500; */
+}
+
+#logo {
+    width: 10%;
+    float: left;
+    margin-top: 1%;
+    padding-bottom: .5%;
+    bottom: 0;
+}
+
+#header {
+    margin-right: 5%;
+    margin-left: 5%;
+    color: #2f4f4f;
+}
+
+#navbarheading {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+#navbar {
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+    font-size: 1.2em;
+}
+
+#banner {
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    text-align: center;
+}
+
+#bannerimage {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(80%);
+}
+
+#bannertext {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#footer {
+    margin: 3% 5% 0% 5%;
+}
+
+#footertext {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: right;
+    width: 100%;
+    background-color: #000000;
+    padding-right: 5%;
+    font-size: 1em;
+}
+
+li {
+    width: 15%;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    color: #ffffff;
+}
+
+ul {
+    padding-inline-start: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+a.currentlink:link, a.currentlink:visited {
+    text-decoration: none;
+    background-color: #2f4f4f;
+    color: #ffffff;
+    padding: 10px 20%;
+    text-align: center;
+}
+
+a.currentlink:hover, a.currentlink:active{
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+a {
+    display: block;
+}
+
+a.header:link, a.header:visited {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20%;
+    text-align: center;
+}
+
+a.footer:link, a.footer:visited {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 3%;
+    text-align: center;
+}
+
+a.header:hover, a.footer:hover, a.header:active, a.footer:active {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+img {
+    height: auto;
+}

@@ -1,0 +1,93 @@
+
+.mainImg {
+    display:flex;
+    flex-direction: column;
+    width: 99.8%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid #000000;
+    overflow: hidden;
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    transform: translate(-50%,50%);
+
+}
+
+.imgTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    
+}
+
+.imgSubhead {
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.imgText {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.Community {
+    display:flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.CTitle {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2.5em;
+}
+
+.CSubTitle {
+    text-align: center;
+    padding-top: 0.25em;
+    font-size: 1.5em;
+}
+
+.UpperFrame {
+    padding-top: 0.5em;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.LowerFrame {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Cpic1, .Cpic2, .Cpic3, .Cpic4, .Cpic5, .Cpic6 {
+    width: 20%;
+    height: 20%;
+}
+
+img {
+    width:100%  
+}

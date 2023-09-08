@@ -1,0 +1,87 @@
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.imgSubhead2 {
+    position: absolute;
+    top: 43%;
+    left: 40%;
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.imgText2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.mainImg2 {
+    height: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+.TopBox2 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.BotBox2 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Sub2A {
+    flex-direction: row;
+    width: 50%;
+    Height:100%;
+    text-align: left;
+    padding-left: 3em;
+    padding-right: 0.5em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.5em;
+}
+
+.Sub2B {
+    flex-direction: row;
+    width: 50%;
+    Height:100%;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+img[src="../images/main3.jpg"] {
+    filter: brightness(80%);
+    height: 100%;
+    width: 70%;
+}
+
+.Bpic1 {
+    width: 10%;
+    height: 10%;
+}
